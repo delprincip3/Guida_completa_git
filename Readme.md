@@ -96,6 +96,62 @@ git clone https://github.com/utente/repository.git
 git clone git@github.com:utente/repository.git  # Con SSH
 ```
 
+### Primo Commit e Setup Iniziale
+
+Quando crei un nuovo progetto da zero e vuoi collegarlo a GitHub, segui questi passaggi:
+
+```bash
+# 1. Crea un file README (se non esiste già)
+echo "# Nome-del-tuo-progetto" >> README.md
+
+# 2. Inizializza il repository Git
+git init
+
+# 3. Aggiungi tutti i file alla staging area
+git add README.md
+# oppure per aggiungere tutti i file:
+git add .
+
+# 4. Fai il primo commit
+git commit -m "first commit"
+
+# 5. Rinomina il branch principale in 'main' (standard moderno)
+git branch -M main
+
+# 6. Collega il repository locale a GitHub
+git remote add origin https://github.com/tuo-username/nome-repository.git
+
+# 7. Push del primo commit su GitHub
+git push -u origin main
+```
+
+#### Spiegazione dei Comandi del Primo Setup
+
+- `echo "# Nome-progetto" >> README.md`: Crea un file README con il titolo del progetto
+- `git init`: Inizializza un repository Git nella cartella corrente
+- `git add README.md`: Aggiunge il file README alla staging area
+- `git commit -m "first commit"`: Crea il primo commit con un messaggio
+- `git branch -M main`: Rinomina il branch da `master` a `main` (convenzione moderna)
+- `git remote add origin [URL]`: Collega il repository locale a quello remoto su GitHub
+- `git push -u origin main`: Push del codice su GitHub e imposta il tracking del branch
+
+> **Nota**: L'opzione `-u` (o `--set-upstream`) in `git push -u origin main` imposta il branch remoto come upstream per il branch locale, permettendo di usare semplicemente `git push` e `git pull` nei commit successivi.
+
+#### Alternativa con Repository Già Esistente
+
+Se hai già un repository locale con dei commit e vuoi collegarlo a GitHub:
+
+```bash
+# Aggiungi il remote
+git remote add origin https://github.com/tuo-username/nome-repository.git
+
+# Verifica che il branch sia 'main'
+git branch -M main
+
+# Push del codice esistente
+git push -u origin main
+```
+
 ### Comandi Base per il Workflow Quotidiano
 
 ```bash
