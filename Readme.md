@@ -1,16 +1,16 @@
 # Guida Completa a Git e GitHub - Dai Fondamenti all'Uso Avanzato
 
 ## Indice
-1. [Introduzione](#introduzione)
-2. [Concetti Fondamentali](#concetti-fondamentali)
-3. [Configurazione Iniziale](#configurazione-iniziale)
-4. [Comandi Git Essenziali](#comandi-git-essenziali)
-5. [Lavorare con i Branch](#lavorare-con-i-branch)
-6. [Workflow Git Popolari](#workflow-git-popolari)
-7. [Configurazione SSH per GitHub](#configurazione-ssh-per-github)
-8. [Tecniche Avanzate](#tecniche-avanzate)
-9. [Best Practices](#best-practices)
-10. [Risoluzione dei Problemi Comuni](#risoluzione-dei-problemi-comuni)
+1. [Introduzione](#1-introduzione)
+2. [Concetti Fondamentali](#2-concetti-fondamentali)
+3. [Configurazione Iniziale](#3-configurazione-iniziale)
+4. [Comandi Git Essenziali](#4-comandi-git-essenziali)
+5. [Lavorare con i Branch](#5-lavorare-con-i-branch)
+6. [Workflow Git Popolari](#6-workflow-git-popolari)
+7. [Configurazione SSH per GitHub](#7-configurazione-ssh-per-github)
+8. [Tecniche Avanzate](#8-tecniche-avanzate)
+9. [Best Practices](#9-best-practices)
+10. [Risoluzione dei Problemi Comuni](#10-risoluzione-dei-problemi-comuni)
 
 ---
 
